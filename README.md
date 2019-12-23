@@ -10,7 +10,7 @@ O objetivo é avaliar a sua forma de estruturação e autonomia em decisões par
 
 ### Desafio
 
-Os portais de conteúdo que cliente possui atualmente impactam aproximadamente 120 milhões de pessoas mensalmente em 35 países e disponíveis em pelo menos 23 idiomas. 
+Os portais de conteúdo que cliente possui atualmente impactam aproximadamente 80 milhões de pessoas mensalmente em 35 países e disponíveis em pelo menos 23 idiomas. 
 Uma das principais características é o posicionamento de cada marca no Google (SEO). 
 Desta forma todos os projetos devem ser muito bem estruturados pensando em SEO, fluidez, reuso (componentes reutilizados em vários projetos) e 
 velocidade de exibição mensurados através do Google PageSpeed (https://developers.google.com/speed/pagespeed/insights/). 
@@ -34,10 +34,8 @@ O seu objetivo é criar um projeto que dê atenção aos requisitos acima.
 
 Ter um buscador no Header no projeto usando parâmetros como:
 
-- http://api.beta.mejorconsalud.com/wp-json/mc/v1/posts?search=tesasasas
-14:43
+- https://api.beta.mejorconsalud.com/wp-json/mc/v1/posts?search=tesasasas
 - https://api.beta.mejorconsalud.com/wp-json/mc/v1/posts?search=calabazas&page=1&orderby=relevance
-14:44
 - x-mc-total-items: 64
 - x-mc-total-pages: 7 
 
