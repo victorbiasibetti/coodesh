@@ -19,7 +19,7 @@ O seu objetivo é criar um projeto que dê atenção aos requisitos acima.
 ### Recursos
 
 1. Verificar a documentação: https://developer.wordpress.org/rest-api/ 
-2. Consumir a REST API Wordpress do Mejor Con Salud: https://mejorconsalud.com/wp-json/mc/v1/ 
+2. Consumir a REST API Wordpress do Mejor Con Salud: https://api.beta.mejorconsalud.com/wp-json/mc/v1/ 
 3. O seu ambiente local rodando na porta 9045 (localhost:9045)
 4. Webpack
 5. React.js
@@ -30,19 +30,20 @@ O seu objetivo é criar um projeto que dê atenção aos requisitos acima.
 - https://misanimales.com/ 
 
 ### Passo a Passo
-1. Ao abrir a Home deverá conter os 10 artigos mais relevantes consumindo o endpoint: https://mejorconsalud.com/wp-json/mc/v1/posts?orderby=relevance 
+1. Ao abrir a Home deverá conter os 10 artigos mais relevantes e o botão carregar mais, consumindo o endpoint: https://api.beta.mejorconsalud.com/wp-json/mc/v1/posts?orderby=relevance 
+
 Ter um buscador no Header no projeto usando parâmetros como:
 
-- http://mejorconsalud.com/wp-json/mc/v1/posts?search=tesasasas
+- http://api.beta.mejorconsalud.com/wp-json/mc/v1/posts?search=tesasasas
 14:43
-- https://mejorconsalud.com/wp-json/mc/v1/posts?search=calabazas&page=1&orderby=relevance
+- https://api.beta.mejorconsalud.com/wp-json/mc/v1/posts?search=calabazas&page=1&orderby=relevance
 14:44
 - x-mc-total-items: 64
 - x-mc-total-pages: 7 
 
 2. Trabalhar com Listagem e Paginação no resultado das buscas.
 3. A página single de um artigo deverá conter: título, categoria, data de publicação, conteúdo, tags, biografias, autor e descrição do autor. Exemplo de uma página completa: https://mejorconsalud.com/4-formas-de-preparar-banos-para-suavizar-los-pies/ 
-4. A single de artigo deverá consumir o endpoint: baseURL/wp-json/mc/v1/posts/{{ID}} - exemplo: [GET] https://mejorconsalud.com/wp-json/mc/v1/posts/406721  
+4. A single de artigo deverá consumir o endpoint: baseURL/wp-json/mc/v1/posts/{{ID}} - exemplo: [GET] https://api.beta.mejorconsalud.com/wp-json/mc/v1/posts/406721  
 5. Usar Conceitos de Componentização. 
 6. Adicionar recursos para trabalhar com meta-tags, keywords e og:tags na configuração do Server Side Rendering;
 7. Configurar a página individual do artigo com as tags essenciais de SEO;
