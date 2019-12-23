@@ -2,7 +2,7 @@
 
 ### Introdução
 
-Este é um desafio para testar seus conhecimentos em JavaScript, React, Redux Next.js;
+Este é um desafio para testar seus conhecimentos em JavaScript, React e Next.js;
 
 Neste desafio existem várias formas de desenvolver com qualidade e reuso este tipo de projeto. 
 
